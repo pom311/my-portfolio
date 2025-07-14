@@ -63,7 +63,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
   animation: slideDownFade 2.5s ease forwards;
 }
 
-@keyframes fadeIn {
+@keyframes slideDownFade {
 	from {
 		opacity: 0;
 		transform: translateY(-100px); 
