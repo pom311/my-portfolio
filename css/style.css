@@ -54,7 +54,8 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	position: static;
 	max-width: none;
   width: 100%;
-  height: auto;
+  height: 528px;
+  object-fit: cover;
   margin: 0 auto;
   transform: translateX(-50%);
 }
