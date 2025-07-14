@@ -60,7 +60,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
   opacity: 0;
   transform: translateY(-100px);
-  animation: alideDownFade 2.5s ease forwards;
+  animation: slideDownFade 2.5s ease forwards;
 }
 
 @keyframes fadeIn {
