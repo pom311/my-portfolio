@@ -37,20 +37,10 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 /* ヘッダー
 ------------------------------------------------------------*/
 #header{
-	display: flex;
-	justify-content: space-between;
-	aligin-items: center;
-}
-
-#headerWrap h1{
-	magin: 0;
+	text-align: center;
 }
 
 #mainnav a{
-	display: flex;
-	gap: 20px;
-	padding: 0;
-	margin: 0;
 	color: #ffffff;
 }
 
@@ -62,9 +52,11 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 #mainImg img{
   position: relative;
-  width: 100%;
+  width: 80%;
   height: auto;
   object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 
