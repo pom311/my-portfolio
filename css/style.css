@@ -57,8 +57,19 @@ a:active, a:focus,input:active, input:focus{outline:0;}
   object-fit: contain;
   display: block;
   margin: 0 auto;
+
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
 }
 
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
 
 /* フッター
 ------------------------------------------------------------*/
