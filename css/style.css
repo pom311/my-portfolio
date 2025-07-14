@@ -51,11 +51,11 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 #mainImg img{
-	position: absolute;
-  left: 50%;
-	max-width: 1280px;
+	position: static;
+	max-width: none;
   width: 100%;
   height: auto;
+  margin: 0 auto;
   transform: translateX(-50%);
 }
 
