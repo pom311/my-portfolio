@@ -59,15 +59,18 @@ a:active, a:focus,input:active, input:focus{outline:0;}
   margin: 0 auto;
 
   opacity: 0;
-  animation: fadeIn 2.5s ease forwards;
+  transform: translateY(-100px);
+  animation: alideDownFade 2.5s ease forwards;
 }
 
 @keyframes fadeIn {
 	from {
 		opacity: 0;
+		transform: translateY(-100px); 
 	}
 	to {
 		opacity: 1;
+		transform: translateY(0);
 	}
 }
 
