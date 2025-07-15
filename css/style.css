@@ -126,6 +126,9 @@ section h2 span {
 	margin: 0 auto;
 	padding-bottom: 80px;
 }
+.innerS h2 {
+	font-size: 30px;
+}
 .innerS h3 {
 	font-size: 50px;
 }
