@@ -52,9 +52,11 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 #mainImg img{
   position: relative;
-  width: 100%;
+  width: 90%;
   height: auto;
   object-fit: contain;
+  display: block;
+  margin: 0 auto;
 
   opacity: 0;
   transform: translateY(-100px);
