@@ -168,7 +168,7 @@ section h2 span {
 	display: block;
 }
 
-/* SEC04 news
+/* SEC03 news
 ------------------------------------------------------------*/
 .col3 img{
 	display: block;
@@ -199,9 +199,9 @@ section h2 span {
 }
 
 
-/* SEC05 COMPANY
+/* SEC04 COMPANY
 ------------------------------------------------------------*/
-#sec05 p{
+#sec04 p{
 	margin-bottom: 5px;
 }
 
