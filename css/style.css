@@ -163,6 +163,7 @@ section h2 span {
 	gap: 60px;
 	clear: both;
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .beer .food{
 	list-style: disc;
