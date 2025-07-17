@@ -202,6 +202,10 @@ section h2 span {
 
 /* SEC04 COMPANY
 ------------------------------------------------------------*/
+#sec04 {
+	backgrand-color: #99cc99;
+}
+
 #sec04 p{
 	margin-bottom: 5px;
 }
